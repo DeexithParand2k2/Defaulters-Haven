@@ -1,0 +1,70 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+
+    background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0)),url("../images/scene1.jpg");
+    /*Image Sharpening*/
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    /**/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.index_text{
+    padding: 10px;
+    margin: 50px;
+    white-space: nowrap;
+    align-self: center;
+    justify-self: center;
+}
+
+.welcome_msg{
+    font-family: 'Oswald', sans-serif;
+    color:#ffce00;
+    font-size: 100px;
+}
+
+.title{
+    font-family: 'Cardo', serif;
+    color: #c0ccd4;
+    font-size: 40px;
+}
+
+.index_btn{
+    font-size: x-large;
+    position: absolute;
+    background: none;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    border: solid #ffffff 2px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    margin: 50px;
+}
+
+.button_holder{
+    position: absolute;
+}
+
+.button_holder:hover{
+    cursor: pointer;
+}
+
+.index_btn:hover{
+    cursor:pointer;
+}
